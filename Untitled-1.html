@@ -1,0 +1,46 @@
+<title>My web</title>
+<h1 class="myDiv" style="color: cornsilk;">Press the Button</h1>
+<div class="myDiv">
+<button style="border-radius: 2cm;background-color: aqua;padding:2mm;">press</button>
+</div>
+<style>
+   body{
+background:linear-gradient(to top left ,blue,orangered);
+   }
+ </style>
+
+ <style>
+    .myDiv{
+        text-align: center;
+    }
+ </style>
+ <button onclick="press()",class="button" style="color: blueviolet;">Add</button>
+ <h1 id="Score">ScorePlaceHolder</h1>
+ <Script>
+   var Score=0
+   document.getElementById("Score").innerHTML="Score:" + Score;
+   function press(){
+         Score++;
+      document.getElementById("Score").innerHTML="Score:"+ Score;
+   }
+ </Script>
+ 
+ <button onclick="Press()" ,class="button" style="color: blue;">subtract</button>
+ <h1 id="Score"> </h1>
+ <script>
+    var Score=0;
+    document.getElementById("Score").innerHTML="Score:" + Score;
+    function Press(){
+         Score--;
+         document.getElementById("Score").innerHTML="Score:" + Score;
+    }
+   
+     if(Score>10){console.log("bravo")
+
+
+     }
+
+
+ </script>
+ <style>
+   
